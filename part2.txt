@@ -1,1 +1,33 @@
 Fill in the passphrases here.
+
+1. greenEggsAndHam
+2. iHateCplusplus
+3. HTMLRocks
+4. JavaScriptRules
+5. SvelteBeatsReact
+6. ThisIsJS
+7. YouFoundMe
+8. coolcoolcool
+9. 2020sucked
+10. listenToTheBlackKeys
+11. a11yComesFirst
+12. iLoveWebDev
+
+References:
+// index
+<!-- Passcode for question 1: greenEggsAndHam -->
+<meta name="question11" content="a11yComesFirst">
+<title data-question2="iHateCplusplus">Scavenger Hunt</title>
+/* Question 8 passcode: coolcoolcool */
+<h2>Question 9 passcode: 2020sucked</h2>
+<question-four style="display:none">Passcode: JavaScriptRules</question-four>
+<span style="opacity: 0;">Question 5 Passcode: SvelteBeatsReact</span>
+ Passcode for question 3: HTMLRocks
+<div data-question12passcode="iLoveWebDev"></div>
+
+// dontlookhere.js
+// Question 6 Passcode: ThisIsJS
+console.log('Question 7 Passcode: YouFoundMe');
+btn.addEventListener('click', () => {
+  fetch('./question10.jpg');
+}); https://cse110-f2021.github.io/Lab2_ScavengerHunt/question10.jpg -> Question 10 passcode: listenToTheBlackKeys
