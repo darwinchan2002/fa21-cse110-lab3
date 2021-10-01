@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang=”en”>
+
+    <head>
+        <title>Long Exposure Timer First Brainstorm</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="CSE 110 Timer Project Meeting Note">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Darwin Chan">
+        <link rel="icon" 
+            type="image/png" 
+            href="images/alarm-icon.png">
+    </head>
+
+    <hr>
+
+    <header>
+        <h1>Long Exposure Timer First Brainstorm</h1>
+        <h2>Brainstorming</h2>
+        <h2>Oct 1, 2021</h2>
+    </header>
+
+    <body>
+        
+        <main>
+
+            <section>
+                <h3>Attendance List</h3>
+                <ul>
+                    <li>Darwin Chan</li>
+                    <li>Angus Tjhin</li>
+                    <li>Christian R</li>
+                    <li>Marcus</li>
+                </ul>
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>Idea of the App</h3>
+                <ul>
+                    <li>
+                        <p>
+                            It has been a <b>headache</b> for people who uses <strong>ND filters</strong> for taking long exposure photos. It is very time-consuming to caluculate the <strong>new shutter speed</strong> after using multiple stops of ND filters.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Therefore, we have decided to create an app for them! <br>
+                            It will allow the user to first choose the <em>ND filters / number of ND stops</em> that they are using, and the original <em>shutter speed</em>. <br>
+                            Then, the app will <i>quickly</i> calculate for the user how much time is needed for the shot they want. Long exposure photos become a piece of cake woohoo!
+                        </p>
+                    </li>
+                        
+                </ul>
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>Git Repository URL</h3>
+                <p>To be posted soon. Thank you for waiting.</p>
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>Agenda</h3>
+                <ol>
+                    <li>Design a home page for the app</li>
+                    <li>Discuss in detail how the time of the timer is going to operate</li>
+                    <li><span>(If time is sufficient,)</span> <span>Discuss about the settings page</span></li>
+                    <li>Decide a time for next meeting</li>
+                    <li>Plan for next meeting</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Unfinished Items from Last Meeting</h3>
+                <ol>
+                    <li>The app icon</li>
+                    <li>Name of the app</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>New Items that Need to Talk About</h3>
+                <ol>
+                    <li>Home page</li>
+                    <li>Main page of the timer</li>
+                    <li>Settings page</li>
+                    <li>Where to publish out app</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Miscellaneous Comments/Questions/Concerns</h3>
+
+                <ul>
+                    <li>Maybe a longer meeting next time</li>
+                    <li>Anyone is waitlisted in the class?</li>
+                    <li>
+                        <em>You have a comment/question/concern? Enter it here!</em>
+                        <form action="/my-handling-form-page" method="post">
+                            <table border="0">
+                                <tr>
+                                    <td><label for="name">Name:</label></td>
+                                    <td><input type="text" id="name" name="user_name"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="course-taken-select">Current Level:</label></td>
+                                    <td>   
+                                        <select name="academic-level" id="level-select">
+                                            <option value="">--Please choose an option--</option>
+                                            <option value="undergrad">Undergraduate</option>
+                                            <option value="grad">Graduate</option>
+                                            <option value="instruction_team">Instruction team - rofessor/TA/Tutors</option>
+                                            <option value="others">Others</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="courses-taken">(Some) upper-division courses that you have taken/are taking currently:</label></td>
+                                    <td>
+                                        <input type="checkbox" id="courses" name="course-cse100">
+                                        <label for="course-cse100">CSE 100</label>
+                                        <input type="checkbox" id="courses" name="course-cse101">
+                                        <label for="course-cse101">CSE 101</label>
+                                        <input type="checkbox" id="courses" name="course-cse105">
+                                        <label for="course-cse105">CSE 105</label>
+                                        <input type="checkbox" id="courses" name="course-cse110">
+                                        <label for="course-cse110">CSE 110</label>
+                                        <br>
+                                        <input type="checkbox" id="courses" name="course-cse120">
+                                        <label for="course-cse120">CSE 120</label>
+                                        <input type="checkbox" id="courses" name="course-cse130">
+                                        <label for="course-cse130">CSE 130</label>
+                                        <input type="checkbox" id="courses" name="course-cse140-L">
+                                        <label for="course-cse140-L">CSE 140/L</label>
+                                        <input type="checkbox" id="courses" name="course-cse142-L">
+                                        <label for="course-cse142-L">CSE 142/L</label>
+                                    </td>
+                                </tr>
+                                
+                                <tr>
+                                    <td><label for="mail">E-mail:</label></td>
+                                    <td><input type="email" id="mail" name="user_email"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="comment-category">Message about:</label></td>
+                                    <td>
+                                        <input list="comment-categories" id="comment-category" name="comment-category" />
+                                        <datalist id="comment-categories">
+                                            <option value="Design">
+                                            <option value="Issue/Bug">
+                                            <option value="Miscellaneous">
+                                        </datalist>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><label for="msg">Message:</label></td>
+                                    <td><textarea id="msg" name="user_message"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="date">Today's Date:</label></td>
+                                    <td><input type="date" id="date" name="sent_date"
+                                        value="2021-10-01"
+                                        min="2021-01-01" max="2099-12-31"></td>
+                                </tr>
+                                <tr>
+                                    <td><label for="send_copy">Send me a copy of the message:</label></td>
+                                    <td>
+                                        <fieldset>
+                                            <input type="radio" id="send_copy" name="send_copy_yes">
+                                            <label for="send_copy_yes">Yes pleaseeee</label><br>
+
+                                            <input type="radio" id="send_copy" name="send_copy_no">
+                                            <label for="send_copy_no">Nope, thank you!</label>
+                                        </fieldset>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <!-- <td></td> -->
+                                    <td align="right">
+                                        <button type="button">Submit</button>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                        </form>
+                        
+                    </li>
+                </ul>
+
+                
+            </section>
+
+            <hr>
+
+            <section>
+                <h3>Pictures of Any Diagrams/Architechture/Things that were Presented</h3>
+                
+                <ul>
+                    <li>
+                        <section>
+                            <h4>Reference Images</h4>
+        
+                            <img src="/images/timer_ref_1.png" height="300px"
+                            alt="timer screenshot from the Timer app in Google Play Store">
+        
+                            <img src="/images/timer_ref_eggs_ca.jpeg" height="300px"
+                            alt="timer screenshot from the Egg Timer App">
+                        </section>
+                    </li>
+                    <li>
+                        <section>
+                            <h4>Example calculations for the shutter speed</h4>
+
+                            <img>
+                        </section>
+                    </li>
+                </ul>
+                
+                
+                
+            </section>
+
+            <section>
+                <h3>Recording of the Meeting</h3>
+                    <ul>
+                        <li>
+                            <h4>Video Recording</h4>
+                            <div></div>
+                        </li>
+                        <li>
+                            <h4>Audio Recording</h4>
+                            <div></div>
+                        </li>
+                    </ul>
+            </section>
+        
+        </main>
+
+        <hr>
+
+        <section><details>
+            <summary>Resources</summary>
+            <nav>
+                <h4><a href="https://www.freecodecamp.org/news/html-basics-for-beginners/">HTML Basics</a></h4>
+            </nav>
+        </details></section>
+ 
+    </body>
+
+    <hr>
+
+    <footer>© 2021 Pak Hin Chan</footer>
+</html>
