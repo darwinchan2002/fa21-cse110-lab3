@@ -12,13 +12,13 @@
             href="images/alarm-icon.png">
     </head>
 
-    <header>
-        <h1>Long Exposure Timer First Brainstorm</h1>
-        <h2>Brainstorming</h2>
-        <h2>Oct 1, 2021</h2>
-    </header>
-
     <body>
+
+        <header>
+            <h1>Long Exposure Timer First Brainstorm</h1>
+            <h2>Brainstorming</h2>
+            <h2>Oct 1, 2021</h2>
+        </header>
         
         <main>
 
@@ -103,16 +103,16 @@
                             <table>
                                 <tr>
                                     <td><label for="name">Name:</label></td>
-                                    <td><input type="text" id="name" name="user_name"></td>
+                                    <td><input type="text" id="name" name="user-name"></td>
                                 </tr>
                                 <tr>
                                     <td><label for="course-taken-select">Current Level:</label></td>
                                     <td>   
-                                        <select name="academic-level" id="level-select">
+                                        <select name="academic-level-select" id="academic-level-select">
                                             <option value="">--Please choose an option--</option>
                                             <option value="undergrad">Undergraduate</option>
                                             <option value="grad">Graduate</option>
-                                            <option value="instruction_team">Instruction team - rofessor/TA/Tutors</option>
+                                            <option value="instruction-team">Instruction team - rofessor/TA/Tutors</option>
                                             <option value="others">Others</option>
                                         </select>
                                     </td>
@@ -142,7 +142,7 @@
                                 
                                 <tr>
                                     <td><label for="mail">E-mail:</label></td>
-                                    <td><input type="email" id="mail" name="user_email"></td>
+                                    <td><input type="email" id="mail" name="user-email"></td>
                                 </tr>
                                 <tr>
                                     <td><label for="comment-category">Message about:</label></td>
@@ -157,23 +157,23 @@
                                 </tr>
                                 <tr>
                                     <td><label for="msg">Message:</label></td>
-                                    <td><textarea id="msg" name="user_message"></textarea></td>
+                                    <td><textarea id="msg" name="user-message"></textarea></td>
                                 </tr>
                                 <tr>
                                     <td><label for="date">Today's Date:</label></td>
-                                    <td><input type="date" id="date" name="sent_date"
+                                    <td><input type="date" id="date" name="sent-date"
                                         value="2021-10-01"
                                         min="2021-01-01" max="2099-12-31"></td>
                                 </tr>
                                 <tr>
-                                    <td><label for="send_copy">Send me a copy of the message:</label></td>
+                                    <td><label for="send-copy">Send me a copy of the message:</label></td>
                                     <td>
-                                        <fieldset>
-                                            <input type="radio" id="send_copy_no" name="send_copy_yes">
-                                            <label for="send_copy_yes">Yes pleaseeee</label><br>
+                                        <fieldset id="send-copy" name="send-copy">
+                                            <input type="radio" id="send-copy-no" name="send-copy-yes">
+                                            <label for="send-copy-yes">Yes pleaseeee</label><br>
 
-                                            <input type="radio" id="send_copy_yes" name="send_copy_no">
-                                            <label for="send_copy_no">Nope, thank you!</label>
+                                            <input type="radio" id="send-copy-yes" name="send-copy-no">
+                                            <label for="send-copy-no">Nope, thank you!</label>
                                         </fieldset>
                                     </td>
                                 </tr>
@@ -203,10 +203,10 @@
                         <section>
                             <h4>Reference Images</h4>
         
-                            <img src="images/timer_ref_1.png" height="300"
+                            <img src="images/timer-ref-1.png" height="300"
                             alt="timer screenshot from the Timer app in Google Play Store">
         
-                            <img src="images/timer_ref_eggs_ca.jpeg" height="300"
+                            <img src="images/timer-ref-eggs-ca.jpeg" height="300"
                             alt="timer screenshot from the Egg Timer App">
                         </section>
                     </li>
@@ -250,10 +250,11 @@
             </nav>
              </details>
         </section>
+
+        <hr>
+
+        <footer>© 2021 Pak Hin Chan</footer>
  
     </body>
 
-    <hr>
-
-    <footer>© 2021 Pak Hin Chan</footer>
 </html>
