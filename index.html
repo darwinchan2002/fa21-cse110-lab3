@@ -100,7 +100,7 @@
                     <li>
                         <em>You have a comment/question/concern? Enter it here!</em>
                         <form action="/my-handling-form-page" method="post">
-                            <table border="0">
+                            <table>
                                 <tr>
                                     <td><label for="name">Name:</label></td>
                                     <td><input type="text" id="name" name="user_name"></td>
@@ -120,22 +120,22 @@
                                 <tr>
                                     <td><label for="courses-taken">(Some) upper-division courses that you have taken/are taking currently:</label></td>
                                     <td>
-                                        <input type="checkbox" id="courses" name="course-cse100">
+                                        <input type="checkbox" id="course-cse100" name="course-cse100">
                                         <label for="course-cse100">CSE 100</label>
-                                        <input type="checkbox" id="courses" name="course-cse101">
+                                        <input type="checkbox" id="course-cse101" name="course-cse101">
                                         <label for="course-cse101">CSE 101</label>
-                                        <input type="checkbox" id="courses" name="course-cse105">
+                                        <input type="checkbox" id="course-cse105" name="course-cse105">
                                         <label for="course-cse105">CSE 105</label>
-                                        <input type="checkbox" id="courses" name="course-cse110">
+                                        <input type="checkbox" id="course-cse110" name="course-cse110">
                                         <label for="course-cse110">CSE 110</label>
                                         <br>
-                                        <input type="checkbox" id="courses" name="course-cse120">
+                                        <input type="checkbox" id="course-cse120" name="course-cse120">
                                         <label for="course-cse120">CSE 120</label>
-                                        <input type="checkbox" id="courses" name="course-cse130">
+                                        <input type="checkbox" id="course-cse130" name="course-cse130">
                                         <label for="course-cse130">CSE 130</label>
-                                        <input type="checkbox" id="courses" name="course-cse140-L">
+                                        <input type="checkbox" id="course-cse140-L" name="course-cse140-L">
                                         <label for="course-cse140-L">CSE 140/L</label>
-                                        <input type="checkbox" id="courses" name="course-cse142-L">
+                                        <input type="checkbox" id="course-cse142-L" name="course-cse142-L">
                                         <label for="course-cse142-L">CSE 142/L</label>
                                     </td>
                                 </tr>
@@ -169,17 +169,17 @@
                                     <td><label for="send_copy">Send me a copy of the message:</label></td>
                                     <td>
                                         <fieldset>
-                                            <input type="radio" id="send_copy" name="send_copy_yes">
+                                            <input type="radio" id="send_copy_no" name="send_copy_yes">
                                             <label for="send_copy_yes">Yes pleaseeee</label><br>
 
-                                            <input type="radio" id="send_copy" name="send_copy_no">
+                                            <input type="radio" id="send_copy_yes" name="send_copy_no">
                                             <label for="send_copy_no">Nope, thank you!</label>
                                         </fieldset>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <!-- <td></td> -->
-                                    <td align="right">
+                                    <td>Ready to go!</td>
+                                    <td>
                                         <button type="button">Submit</button>
                                     </td>
                                 </tr>
@@ -203,18 +203,18 @@
                         <section>
                             <h4>Reference Images</h4>
         
-                            <img src="/images/timer_ref_1.png" height="300px"
+                            <img src="/images/timer_ref_1.png" height="300"
                             alt="timer screenshot from the Timer app in Google Play Store">
         
-                            <img src="/images/timer_ref_eggs_ca.jpeg" height="300px"
+                            <img src="/images/timer_ref_eggs_ca.jpeg" height="300"
                             alt="timer screenshot from the Egg Timer App">
                         </section>
                     </li>
                     <li>
                         <section>
                             <h4>Example calculations for the shutter speed</h4>
-
-                            <img>
+                            <!-- Image needed!!! -->
+                            <p><em>Image needed here!!!</em></p>
                         </section>
                     </li>
                 </ul>
@@ -241,16 +241,17 @@
 
         <hr>
 
-        <section><details>
+        <section>
+            <h3>Additionals</h3>
+            <details>
             <summary>Resources</summary>
             <nav>
                 <h4><a href="https://www.freecodecamp.org/news/html-basics-for-beginners/">HTML Basics</a></h4>
             </nav>
-        </details></section>
+             </details>
+    </section>
  
     </body>
-
-    <hr>
 
     <footer>© 2021 Pak Hin Chan</footer>
 </html>
