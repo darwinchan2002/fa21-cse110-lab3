@@ -1,1 +1,1 @@
-Link to my published site - [https://darwinchan2002.github.io/Lab2/](https://darwinchan2002.github.io/Lab2/)
+Link to my published site - [https://darwinchan2002.github.io/fa21-cse110-lab3/](https://darwinchan2002.github.io/fa21-cse110-lab3/)
