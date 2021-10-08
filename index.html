@@ -7,7 +7,13 @@
     <meta name="description" content="CSE 110 Timer Project Meeting Note">
     <meta name="keywords" content="HTML">
     <meta name="author" content="Darwin Chan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="images/alarm-icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
 </head>
 
 <body>
@@ -20,7 +26,7 @@
 
     <main>
 
-        <section>
+        <section id="attendence">
             <h3>Attendance List</h3>
             <ul>
                 <li>Darwin Chan</li>
@@ -32,7 +38,7 @@
 
         <hr>
 
-        <section>
+        <section id="idea">
             <h3>Idea of the App</h3>
             <ul>
                 <li>
@@ -65,18 +71,18 @@
         <hr>
 
         <section>
-            <h3>Agenda</h3>
-            <ol>
-                <li>Design a home page for the app</li>
-                <li>Discuss in detail how the time of the timer is going to operate</li>
-                <li><span>(If time is sufficient,)</span> <span>Discuss about the settings page</span></li>
-                <li>Decide a time for next meeting</li>
-                <li>Plan for next meeting</li>
+            <h3 class="detail" id="agendas">Agenda</h3>
+            <ol class="detail-agenda">
+                <li class="agenda agenda1">Design a home page for the app</li>
+                <li class="agenda agenda2">Discuss in detail how the time of the timer is going to operate</li>
+                <li class="agenda agenda3"><span>(If time is sufficient,)</span> <span>Discuss about the settings page</span></li>
+                <li class="agenda agenda4">Decide a time for next meeting</li>
+                <li class="agenda agenda5">Plan for next meeting</li>
             </ol>
         </section>
 
         <section>
-            <h3>Unfinished Items from Last Meeting</h3>
+            <h3 class="detail" id="unfinished">Unfinished Items from Last Meeting</h3>
             <ol>
                 <li>The app icon</li>
                 <li>Name of the app</li>
@@ -84,24 +90,30 @@
         </section>
 
         <section>
-            <h3>New Items that Need to Talk About</h3>
-            <ol>
-                <li>Home page</li>
-                <li>Main page of the timer</li>
-                <li>Settings page</li>
-                <li>Where to publish out app</li>
+            <h3 class="detail" id="new-items">New Items that Need to Talk About</h3>
+            <ol class="detail-new-item">
+                <li class="new-item item1">Home page</li>
+                <li class="new-item item2">Main page of the timer</li>
+                <li class="new-item item3">Settings page</li>
+                <li class="new-item item4">Where to publish out app</li>
+                <li class="new-item item5">Need some documentations!!!</li>
+                <li class="new-item item6">Need some documentations!!!</li>
+                <li class="new-item item7">Need some documentations!!!</li>
+                <li class="new-item item8">Need some inspirations!!!</li>
+                <li class="new-item item9">Need some documentations!!!</li>
+                <li class="new-item item10">Need some documentations!!!</li>
             </ol>
         </section>
 
         <section>
-            <h3>Miscellaneous Comments/Questions/Concerns</h3>
+            <h3 class="detail">Miscellaneous Comments/Questions/Concerns</h3>
 
             <ul>
                 <li>Maybe a longer meeting next time</li>
                 <li>Anyone is waitlisted in the class?</li>
                 <li>
                     <em>You have a comment/question/concern? Enter it here!</em>
-                    <form action="/my-handling-form-page" method="post">
+                    <form action="/my-handling-form-page" method="post" id="message-form">
                         <table>
                             <tr>
                                 <td><label for="name">Name:</label></td>
@@ -201,20 +213,20 @@
 
             <ul>
                 <li>
-                    <section>
+                    <section id="references">
                         <h4>Reference Images</h4>
 
-                        <img src="images/timer_ref_1.png" height="300"
+                        <img src="images/timer_ref_1.png" 
                             alt="timer screenshot from the Timer app in Google Play Store">
 
-                        <img src="images/timer_ref_eggs_ca.jpeg" height="300"
+                        <img src="images/timer_ref_eggs_ca.jpeg" 
                             alt="timer screenshot from the Egg Timer App">
                     </section>
                 </li>
                 <li>
-                    <section>
+                    <section id="examples">
                         <h4>Example calculations for the shutter speed</h4>
-                        <img src="images/whiteboard_1.jpeg" height="500" alt="timer screenshot from the Egg Timer App">
+                        <img src="images/whiteboard_1.jpeg" alt="timer screenshot from the Egg Timer App">
                     </section>
                 </li>
             </ul>
@@ -223,13 +235,13 @@
 
         </section>
 
-        <section>
+        <section id="recording">
             <h3>Recording of the Meeting</h3>
             <ul>
                 <li>
                     <div>
                         <h4>Video Recording</h4>
-                        <video controls height="300">
+                        <video controls>
                             <source src="meeting/Intro_Video.mp4" type="video/webm">
                             Sorry, your browser doesn't support embedded videos.
                         </video>
@@ -248,7 +260,7 @@
 
         <hr>
 
-        <section>
+        <section id="additionals">
             <h3>Additionals</h3>
             <details>
                 <summary>Resources</summary>

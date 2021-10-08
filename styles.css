@@ -1,0 +1,156 @@
+* {
+    color: rgb(64,65,69);
+}
+
+body {
+    margin: 2% 5vw 2% 5vw;
+    background-color: BlanchedAlmond;
+}
+
+header {
+    color: #8E6E4C;
+    margin-bottom: 1pc;
+    border-radius: 16px;
+    padding-left: 8pt;
+    padding-right: 8pt;
+}
+
+header h1 {
+    position: fixed;
+    top: 10px;
+    right: 10%;
+    background: rgb(201,199,194);
+    padding: 10px;
+    border-radius: 16px;
+}
+
+header h2 {
+    color: rgb(170,142,115);
+    font-size: 1.5em;
+}
+
+main {
+    background-color: hsl(180,100%,97.6%);
+    margin-bottom: 1pc;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 16px;
+}
+
+#idea p {
+    display: block;
+}
+
+.detail-agenda {
+    display: grid;
+    grid-template-columns: repeat(3,30% [col-start]);
+    grid-template-rows: repeat(2, auto [row-start]);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+.agenda {
+    background-color: pink;
+    display: block;
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    border-radius: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    justify-self: center;
+    align-self: center;
+}
+
+.detail-new-item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.new-item {
+    display: block;
+    background-color: pink;
+    border-radius: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex: 200px;
+    align-self: flex-start;
+    order: 1;
+}
+
+.item3, .item4 {
+    flex-grow: 10;
+    order: 0;
+}
+
+.item8 {
+    flex-grow: 255;
+    order: 2;
+}
+
+ul li, ol > li {
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+/* This is for making the form more eye-catching in case looking for place to give comments */
+#message-form {
+    background-color: rgb(216,190,192);
+}
+
+/* For references images in the meeting */
+#references img {
+    height: 200px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+#examples img {
+    max-width: 80%;
+}
+
+/* For the recordings during the meeting */
+video {
+    min-width: 400px;
+}
+
+#additionals details:hover {
+    background: rgb(217, 237, 247);
+}
+
+#additionals details:active {
+    background: rgb(195, 232, 250);
+}
+
+footer {
+    padding: 0.01em 16px 0.01em 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: rgb(185,185,185);
+    font-size: 2ch;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    bottom: -5px;
+}
+
+a[href="https://www.freecodecamp.org/news/html-basics-for-beginners/"] {
+    color: rgb(39,86,109);
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 10px;
+    }
+}
