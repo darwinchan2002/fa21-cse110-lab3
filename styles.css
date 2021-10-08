@@ -43,6 +43,14 @@ main {
     display: block;
 }
 
+p ~ p {
+    background: rgb(205,200,185);
+}
+
+h3 + p {
+    background: rgb(195,190,171);
+}
+
 .detail-agenda {
     display: grid;
     grid-template-columns: repeat(3,30% [col-start]);
@@ -62,6 +70,10 @@ main {
     margin-bottom: 10px;
     justify-self: center;
     align-self: center;
+}
+
+.agenda.agenda5 {
+    background: rgb(227,195,190);
 }
 
 .detail-new-item {
